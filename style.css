@@ -4,6 +4,10 @@ margin: 0;
 font-family:'roboto', sans-serif;
 }
 
+body * {
+    box-sizing: border-box;
+}
+
 .main-login{
     width: 100vw;
     height: 100vh;
@@ -39,7 +43,9 @@ font-family:'roboto', sans-serif;
     align-items: center;  
 }
 
-.card-login{
+.card-login{ 
+
+
     width: 60%;
     display: flex;
     justify-content: center;
@@ -59,12 +65,11 @@ font-family:'roboto', sans-serif;
 }
 
 .textfield{
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;  
-    margin: 10px 0px;
+    margin: 3px;
 }
 
 .textfield > input{
@@ -92,7 +97,7 @@ font-family:'roboto', sans-serif;
 .btn-login{
     width: 100%;
     padding: 16px 0px;
-    margin: 3px;
+    margin: 15px;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -103,4 +108,39 @@ font-family:'roboto', sans-serif;
     background: #00ff88;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052; 
+}
+
+@media only screen and (max-width: 950px){
+.card-login{
+    width: 85%
+    }  
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+
+    .left-login > h1{
+       display: none; 
+    }
+
+.left-login{
+    width: 100%;
+    height: auto;
+}
+
+.right-login{
+    width: 100%;
+    height: auto;
+}
+
+.left-login-image{
+    width: 50vh;
+}
+
+.card-login{
+    width: 90%;
+}
+
 }
