@@ -1,4 +1,5 @@
-# Tela-de-Login
+<h1 align="center">Tela-de-Login</h1>
+
 <div align="left">
   <img src="https://media-exp1.licdn.com/dms/image/C4D22AQFs0peZU9lsPw/feedshare-shrink_800/0/1667689067237?e=1670457600&v=beta&t=lSauARlL0UcfOvwdKOLmiU_Gcsj15_PxxUbICHmvF1M" width="700px">
 </div>
@@ -19,6 +20,5 @@ https://carlosm-moraes2-tela-login.netlify.app/
 
 * Html
 * Css
-* JavaScript
 
 
